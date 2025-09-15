@@ -14,5 +14,23 @@ pub fn example(){
     // println!("{}",y);
     // println!("{}",z);
 
-    
+//     let v= {
+//        let mut x = 1;
+//        x += 2;
+//        x
+//    };
+
+//    println!("{:?}", v);
+
+    // let v = {
+    //     let x = 3;
+    //     x
+    // };
+    // println!("{}", v);
+
+    let s = sum(1, 2);
+    println!("{}", s);
+}
+fn sum(x: i32, y: i32) -> i32 {
+    x + y
 }
