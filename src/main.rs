@@ -5,7 +5,8 @@ pub mod char;
 pub mod bool;
 pub mod unit;
 pub mod statement;
-
+pub mod functions;
+pub mod ownership;
 fn main() {
   //println!("placeholder");
 
@@ -15,7 +16,9 @@ fn main() {
   //char::run();
   //bool::run();
   //unit::run();
-  statement::example();
+  //statement::example();
+  //functions::run();
+  ownership::run();
 
 
 
